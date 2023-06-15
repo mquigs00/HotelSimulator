@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CS174_Final" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CS174_Final" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CS174_Final" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/DateConverter.h" />
+		<Unit filename="include/Hotel.h" />
+		<Unit filename="include/HotelCommander.h" />
+		<Unit filename="include/HotelFactory.h" />
+		<Unit filename="include/Party.h" />
+		<Unit filename="include/Purchase.h" />
+		<Unit filename="include/Room.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/DateConverter.cpp" />
+		<Unit filename="src/Hotel.cpp" />
+		<Unit filename="src/HotelCommander.cpp" />
+		<Unit filename="src/HotelFactory.cpp" />
+		<Unit filename="src/Party.cpp" />
+		<Unit filename="src/Purchase.cpp" />
+		<Unit filename="src/Room.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

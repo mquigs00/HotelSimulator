@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1620778464 source:c:\users\matt\documents\oo programming\cs174_final\main.cpp
+	<iostream>
+	"HotelCommander.h"
+	"HotelFactory.h"
+
+1619736972 c:\users\matt\documents\oo programming\cs174_final\include\hotelfactory.h
+	"Hotel.h"
+	<string>
+
+1620778643 c:\users\matt\documents\oo programming\cs174_final\include\hotel.h
+	<string>
+	<vector>
+	"Party.h"
+	<map>
+	"Room.h"
+	"Purchase.h"
+	<algorithm>
+
+1620755900 source:c:\users\matt\documents\oo programming\cs174_final\src\hotelfactory.cpp
+	"HotelFactory.h"
+	<fstream>
+	<iostream>
+
+1620778643 source:c:\users\matt\documents\oo programming\cs174_final\src\hotel.cpp
+	"Hotel.h"
+	<iostream>
+	<fstream>
+
+1620755900 source:c:\users\matt\documents\oo programming\cs174_final\src\party.cpp
+	"Party.h"
+
+1620666427 c:\users\matt\documents\oo programming\cs174_final\include\party.h
+	<string>
+	"Room.h"
+	"Purchase.h"
+	<vector>
+	"DateConverter.h"
+
+1620755900 source:c:\users\matt\documents\oo programming\cs174_final\src\hotelcommander.cpp
+	"HotelCommander.h"
+	"HotelFactory.h"
+	<stdio.h>
+	<string.h>
+	<fstream>
+	<sstream>
+	<iostream>
+
+1620241756 c:\users\matt\documents\oo programming\cs174_final\include\hotelcommander.h
+	<string>
+	"Hotel.h"
+
+1620755900 c:\users\matt\documents\oo programming\cs174_final\include\room.h
+	<string>
+
+1620755900 source:c:\users\matt\documents\oo programming\cs174_final\src\room.cpp
+	"Room.h"
+
+1620755900 source:c:\users\matt\documents\oo programming\cs174_final\src\purchase.cpp
+	"Purchase.h"
+
+1620397573 c:\users\matt\documents\oo programming\cs174_final\include\purchase.h
+	<string>
+
+1620754758 source:c:\users\matt\documents\oo programming\cs174_final\src\dateconverter.cpp
+	"DateConverter.h"
+	<string>
+
+1620679515 c:\users\matt\documents\oo programming\cs174_final\include\dateconverter.h
+	<string>
+	<vector>
+
